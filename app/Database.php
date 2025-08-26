@@ -2,10 +2,10 @@
 class Database {
     private static $instance = null;
     private $connection;
-    private $host = 'localhost';
-    private $user = 'root';
-    private $password = '';
-    private $database = 'php_oop';
+    private $host = 'sql104.infinityfree.com';
+    private $user = 'if0_39791130';
+    private $password = 'R4h4s1a12345';
+    private $database = 'if0_39791130_php_oop';
 
     private function __construct()
     {
@@ -25,5 +25,6 @@ class Database {
     {
         return $this->connection;
     }
+
 
 }
